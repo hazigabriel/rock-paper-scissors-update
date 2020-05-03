@@ -1,0 +1,84 @@
+* {
+	font-family: 'VT323', monospace  ;
+	color: #022F40;
+}
+.header {
+	background: rgb(2,47,64);
+    background: linear-gradient(90deg, rgba(2,47,64,1) 8%, rgba(255,234,0,1) 10%, rgba(255,234,0,1) 90%, rgba(2,47,64,1) 92%);
+   
+}
+.header h1 {
+	color: #022F40;
+	font-size: 4em;
+	text-shadow: 2px 2px #F46036;
+	user-select: none;
+
+}
+.header-line {
+	margin-top: -3%;
+	user-select: none;
+}
+ .player-choice, .computer-choice {
+ 	height:100px;
+ }
+.player-choice img {
+	width: 100%;
+	transform: scaleX(-1);
+
+ }
+.computer-choice-header {
+	padding-top: 1.5%;
+}
+ .computer-choice img {
+ 	width:100%;
+ }
+ 
+ .content {
+	background: rgb(2,47,64);
+    background: linear-gradient(90deg, rgba(2,47,64,1) 8%, rgba(255,234,0,1) 10%, rgba(255,234,0,1) 90%, rgba(2,47,64,1) 92%);
+ }
+.player-choice  img:hover {
+	padding-top: 5%;
+	cursor: pointer;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.scoreboard {
+	padding-top: 5%
+}
+.footer {
+	background: rgb(2,47,64);
+    background: linear-gradient(90deg, rgba(2,47,64,1) 8%, rgba(255,234,0,1) 10%, rgba(255,234,0,1) 90%, rgba(2,47,64,1) 92%);
+   
+}
+.footer h1 {
+	color: #022F40;
+	font-size: 4em;
+	text-shadow: 2px 2px #F46036;
+	user-select: none;
+	padding-top: 1.2%;
+}
+#reset {
+	user-select: auto;
+}
+.rock-computer {
+	display:none;
+}
+.paper-computer {
+	display:none;
+}
+.scissors-computer {
+	display:none;
+}

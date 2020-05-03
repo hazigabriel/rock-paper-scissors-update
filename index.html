@@ -1,0 +1,89 @@
+ <html>
+	<head>
+		<title>Rock papaer & scissors</title>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+		<link rel="icon" href="images/tab-icon.ico"" type="image/gif" >
+
+
+	</head>
+
+	<body>
+		<div class="container-fluid header">
+
+		 	<div class="row"> 
+			 	<div class="col-12 col-md-12">
+			 		<h1 class="text-center"><span class="blink">-></span>Rock, paper & scissors<span class="blink"><-</span></h1>
+			 	</div>
+			 	<div class="col-xs-12 col-md-12">
+			 		<h1 class="text-center header-line">________________________________________________</h1>
+			 	</div>
+			</div>
+
+		</div>
+
+		<div class="container-fluid content">
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-10"><h2><span class="blink">></span>Select your weapon:</h2></div>
+			</div>
+			<div class="row player-choice">
+				<div class="col-md-2"></div>
+				<div class="col-md-1 rock"><img id="rock" src="images/rock.png"></div>
+				<div class="col-md-1 paper"><img id="paper"src="images/paper.png"></div>		
+				<div class="col-md-1 scissors"><img id="scissors"src="images/scissors.png"></div>
+			</div>
+			<div class="row computer-choice-header">
+				<div class="col-md-10"><h2 class="text-right">Computer choice:</h2></div>
+			</div>
+			<div class="row computer-choice">
+				<div class="col-md-9"></div>
+				<div class="col-md-1 rock-computer"><img src="images/rock.png"></div>
+				<div class="col-md-1 paper-computer"><img src="images/paper.png"></div>		
+				<div class="col-md-1 scissors-computer"><img src="images/scissors.png"></div>
+
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-md-12"><h2 id="roundWinner" class="blink text-center">Are you feeling lucky?</h2></div>
+
+			</div>
+
+			<div class="scoreboard"></div>
+
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col md-3"><h2>Your score: <span id="playerScore">0</span></h2></div>
+				</div>
+
+				<div class="row">
+
+					<div class="col-md-2"></div>
+					<div class="col md-2"><h2>Computer score: <span id="computerScore">0</h2></div>
+	
+				</div>
+			</div>
+	
+		</div>
+
+		<div class="container-fluid footer">
+			<div class="col-xs-12 col-md-12">
+			 	<h1 class="text-center header-line">________________________________________________</h1>
+			 </div>
+
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-7 "><button id="resetButton">Reset Score</button></div>
+				<div class="col-md-2"><p>Coded by <a href="https://github.com/hazigabriel">@hazigabriel</a>, 2020</p></div>
+			</div>
+
+		</div>
+	<script src="script.js"></script>
+	</body>
+
+ </html>
